@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    /* text-align: center; */
+}
+
+h4 {
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.outline-all {
+    border: none;
+    border: 0.1px solid black;
+    text-align: left;
+    padding: 5px auto;
+    display: inline-block;
+    border-collapse: collapse;
+
+}
+
+.outline-center {
+    text-align: center;
+}
+
+input {
+
+    width: 100%;
+    border: none;
+    display: block;
+    margin: 5px 0 10px 0;
+    padding: 2px 2px;
+    color: black;
+    font-weight: 400;
+
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+    border-bottom: 1px solid black;
+
+}
+
+.container-fluid {
+    padding: 10px 100px;
+}
+
+label {
+
+    width: 100%;
+    font-weight: 700;
+    font-size: 87.5%;
+    word-wrap: break-word;
+
+}
+
+.label-content {
+    color: gray;
+}
+
+.button-space {
+    margin: 20px 10px 10px auto;
+}
+
+button {
+    font-weight: 900;
+}
+
+.separate-line {
+    border-top: 10px solid black;
+
+}
