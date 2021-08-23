@@ -48,7 +48,10 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Data</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">FAQ</a>
                         </li>
@@ -140,7 +143,7 @@
                                 SECTION B
                             </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show"
                             aria-labelledby="panelsStayOpen-headingTwo">
                             <div class="accordion-body">
                                 <!--Section B-->
@@ -392,7 +395,7 @@
                                 SECTION C
                             </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show"
                             aria-labelledby="panelsStayOpen-headingThree">
                             <div class="accordion-body">
                                 <!--Section C-->
@@ -784,6 +787,40 @@
                 </div>
 
         </form>
+        </div>
+
+
+        <!--Button to open on Draft-->
+        <button class="btn btn-dark on-draft-button" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        </button>
+
+        <div class="offcanvas offcanvas-start aside-width" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Quene</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    <p>This application works offline and online</p>
+
+                    <p>Records are stored inside your browser until they have been uploaded (even if you turn off your
+                        device or go offline).</p>
+                </div>
+                <div class="dropdown mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-bs-toggle="dropdown">
+                        Dropdown button
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 

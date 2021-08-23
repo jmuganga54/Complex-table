@@ -73,3 +73,20 @@ button {
     border-top: 10px solid black;
 
 }
+
+.on-draft-button {
+    font-family: arial, sans-serif;
+    position: fixed;
+    top: 50%;
+    margin-left: 20px;
+    padding: 0.2rem;
+    height: 50px;
+    width: 0.8rem;
+    background: black;
+    border: 2px solid;
+    border-radius: 1rem;
+}
+
+.aside-width {
+    max-width: 30%;
+}
